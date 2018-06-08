@@ -85,9 +85,6 @@ namespace API.Models
                 .WithRequired(e => e.TestType)
                 .WillCascadeOnDelete(false);
 
-            modelBuilder.Entity<zDataForInvigilatorMailingLabel>()
-                .Property(e => e.Sequence)
-                .IsUnicode(false);
         }
     }
 }

@@ -27,3 +27,5 @@ D:\Development_GIT\MyExample\Project.AuditTracking\API.Tests\bin\Debug\Newtonsof
 D:\Development_GIT\MyExample\Project.AuditTracking\API.Tests\obj\Debug\API.Tests.csprojResolveAssemblyReference.cache
 D:\Development_GIT\MyExample\Project.AuditTracking\API.Tests\obj\Debug\API.Tests.dll
 D:\Development_GIT\MyExample\Project.AuditTracking\API.Tests\obj\Debug\API.Tests.pdb
+D:\Development_GIT\MyExample\Project.AuditTracking\API.Tests\bin\Debug\EntityFramework.dll
+D:\Development_GIT\MyExample\Project.AuditTracking\API.Tests\bin\Debug\EntityFramework.xml
