@@ -22,8 +22,8 @@ namespace API.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int DeviceTypeID { get; set; }
 
-        public virtual ClassModel Class { get; set; }
+        public virtual Class Class { get; set; }
 
-        public virtual DeviceTypeModel DeviceType { get; set; }
+        public virtual DeviceType DeviceType { get; set; }
     }
 }

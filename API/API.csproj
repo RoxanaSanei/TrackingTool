@@ -44,11 +44,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -96,25 +96,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Controllers\TestTypesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AddressModel.cs" />
-    <Compile Include="Models\AuditModel.cs" />
-    <Compile Include="Models\AuditTrackingModel.cs" />
-    <Compile Include="Models\CentreModel.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\Audit.cs" />
+    <Compile Include="Models\Audit_Backup.cs" />
+    <Compile Include="Models\Centre.cs" />
     <Compile Include="Models\CentreContact.cs" />
-    <Compile Include="Models\CentreTestTypeYearlevelModel.cs" />
-    <Compile Include="Models\ClassModel.cs" />
+    <Compile Include="Models\CentreTestTypeYearlevel.cs" />
+    <Compile Include="Models\Class.cs" />
     <Compile Include="Models\ClassDeviceType.cs" />
-    <Compile Include="Models\ClassTestDateModel.cs" />
-    <Compile Include="Models\ContactTypeModel.cs" />
-    <Compile Include="Models\DeviceTypeModel.cs" />
-    <Compile Include="Models\InvigilatorModel.cs" />
+    <Compile Include="Models\ClassTestDate.cs" />
+    <Compile Include="Models\ContactType.cs" />
+    <Compile Include="Models\DBContext.cs" />
+    <Compile Include="Models\DeviceType.cs" />
+    <Compile Include="Models\Invigilator.cs" />
     <Compile Include="Models\InvigilatorAvailableDate.cs" />
-    <Compile Include="Models\ProjectModel.cs" />
-    <Compile Include="Models\sysdiagram.cs" />
-    <Compile Include="Models\TestTypeModel.cs" />
+    <Compile Include="Models\Project.cs" />
+    <Compile Include="Models\TestType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -128,7 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Repository\" />
   </ItemGroup>
   <PropertyGroup>

@@ -11,7 +11,7 @@ namespace API.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public InvigilatorAvailableDate()
         {
-            ClassTestDates = new HashSet<ClassTestDateModel>();
+            ClassTestDates = new HashSet<ClassTestDate>();
         }
 
         public int InvigilatorAvailableDateId { get; set; }
@@ -21,8 +21,8 @@ namespace API.Models
         public DateTime InvigilatorAvailDate { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ClassTestDateModel> ClassTestDates { get; set; }
+        public virtual ICollection<ClassTestDate> ClassTestDates { get; set; }
 
-        public virtual InvigilatorModel Invigilator { get; set; }
+        public virtual Invigilator Invigilator { get; set; }
     }
 }

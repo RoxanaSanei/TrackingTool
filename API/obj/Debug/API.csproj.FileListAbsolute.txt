@@ -27,6 +27,5 @@ D:\Development_GIT\MyExample\Project.AuditTracking\API\bin\Newtonsoft.Json.xml
 D:\Development_GIT\MyExample\Project.AuditTracking\API\bin\System.Net.Http.Formatting.xml
 D:\Development_GIT\MyExample\Project.AuditTracking\API\bin\System.Web.Http.xml
 D:\Development_GIT\MyExample\Project.AuditTracking\API\bin\System.Web.Http.WebHost.xml
-D:\Development_GIT\MyExample\Project.AuditTracking\API\obj\Debug\API.csprojResolveAssemblyReference.cache
 D:\Development_GIT\MyExample\Project.AuditTracking\API\obj\Debug\API.dll
 D:\Development_GIT\MyExample\Project.AuditTracking\API\obj\Debug\API.pdb

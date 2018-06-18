@@ -12,7 +12,7 @@ namespace API.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public CentreContact()
         {
-            Centres = new HashSet<CentreModel>();
+            Centres = new HashSet<Centre>();
         }
 
         [Key]
@@ -43,9 +43,9 @@ namespace API.Models
 
         public int ContactTypeID { get; set; }
 
-        public virtual ContactTypeModel ContactType { get; set; }
+        public virtual ContactType ContactType { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CentreModel> Centres { get; set; }
+        public virtual ICollection<Centre> Centres { get; set; }
     }
 }
